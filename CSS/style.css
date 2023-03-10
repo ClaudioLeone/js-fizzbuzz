@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #440b0b;
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +17,31 @@
 }
 
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 10 - 5px);
     height: calc(100% / 10 - 5px);
     border: 1px solid black;
+}
+
+.fizz-color{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.buzz-color{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.fizzbuzz-color{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
 }
